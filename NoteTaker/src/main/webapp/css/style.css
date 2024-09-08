@@ -1,0 +1,29 @@
+
+body {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flex on body */
+    flex-direction: column; /* Arrange content in a column */
+    align-items: center; /* Center content horizontally */
+}
+
+.container {
+    text-align: center; /* Center-align the text */
+    width: 100%; /* Full width to accommodate the navbar */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allow the image container to grow */
+}
+
+.icon-format {
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+}
+.icon-format:hover {
+    transform: scale(1.1); /* Zoom in slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
