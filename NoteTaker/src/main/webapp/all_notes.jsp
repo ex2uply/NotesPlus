@@ -31,7 +31,7 @@
                         <br>
                         <%=note.getAddedDate()%>
                     <br>
-                    <div class="container text-center">
+                    <div class="container">
                         <a href="deleteservlet?id=<%=note.getId()%>" class="btn btn-danger">Delete</a>
                         <a href="editpage.jsp?id=<%=note.getId()%>" class="btn btn-primary">Update</a>
 
